@@ -1,0 +1,206 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  font-family: "Sacramento", cursive;
+  font-family: "Ubuntu", sans-serif;
+  font-family: "Open Sans", sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: "Montserrat", sans-serif;
+}
+
+p{
+  font-family: "Open Sans", sans-serif;
+}
+
+#title {
+ 
+  background-color: #a3d2ca;
+  color: #000;
+}
+
+.nav-link{
+  font-size: 2.5rem;
+}
+.navbar {
+  padding: 0 0 6rem;
+}
+
+.navbar-brand {
+  font-family: "Sacramento", cursive;
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 10px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+.container-fluid {
+  padding: 3% 12% 7%;
+}
+
+.big-heading {
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.5;
+  font-size: 3.5rem;
+  text-align: left;
+}
+
+.btn-heading {
+  margin: 5% 3% 5% 0;
+}
+ .title-image{
+  width: 60%;
+  position:absolute;
+  right: 2%;
+  top: 10%;
+}
+
+.navbar-title{
+  position: relative;
+  z-index: 1;
+}
+
+#opening-features {
+  font-family: "Ubuntu", sans-serif;
+  background-color: #e4d3cf;
+  padding: 7% 15%;
+  position: relative;
+}
+
+.open-feature {
+  text-align: center;
+  padding: 5%;
+  border: none;
+}
+
+#history-feature{
+  text-align: center;
+  background-color: #a3d2ca;
+  padding: 7% 10%;
+}
+
+#history-feature p{
+  font-size: 1.2rem;
+}
+
+#history-feature h2{
+  margin-bottom: 5%;
+}
+
+.img-history{
+  width: 80%;
+}
+
+#tournament-features{
+  padding: 7% 10%;
+  background-color: #e4d3cf;
+  text-align: center;
+}
+
+#tournament-features h2{
+  margin-bottom: 5%;
+}
+
+#skaters{
+  padding: 7% 7%;
+  text-align: center;
+  background-color: #a3d2ca;
+}
+
+.skater-image{
+  width: 100%;
+}
+
+.skater-card{
+  background-color:#e4d3cf ;
+}
+
+#skaters h2{
+  margin-bottom: 5%;
+}
+
+#cta{
+  background-color: #5f939a;
+  text-align: center;
+  padding: 7% 15%;
+  color:#fff;
+}
+
+#cta h3{
+  padding: 2%;
+  font-size: 2.5rem;
+  line-height: 1.5;
+  width: 80%;
+  margin: 0 auto;
+}
+
+#cta button{
+  margin:0 2%;
+}
+
+#cta i{
+  margin:0 10px;
+}
+
+#footer{
+  text-align: center;
+  padding: 7% 15%;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1.5rem;
+  background-color: #e4d3cf;
+}
+
+#footer i{
+  margin: 2% 2%;
+}
+
+#pricing{
+  text-align: center;
+  padding: 100px;
+  background-color: #e4d3cf;
+}
+
+.pricing-card{
+  background-color: #5f939a;
+}
+
+#overview img{
+  width: 80%;
+}
+
+.card-tournament{
+  background-color: #5f939a;
+}
+
+.btn-tournament{
+  background-color: #e4d3cf;
+  color: #000;
+}
+
+#shopping{
+  text-align: center;
+  padding: 100px;
+  background-color: #e4d3cf;
+}
+
+#shopping img{
+  width: 80%;
+}
+
+@media (max-width: 1028px) {
+  .title-image{
+    position: static;
+    transform: rotate(0);
+    width: 100%;
+  }
+
+  #title{
+    text-align: center;
+  }
+}

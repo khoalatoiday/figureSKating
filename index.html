@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bài tập lớn</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans&family=Sacramento&family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="bootstrap/css/bootstrap.css"
+    />
+    <link
+      rel="stylesheet"
+      href="css/all.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="bootstrap-5.0.0-beta3-dist\js\bootstrap.bundle.js"
+      defer
+    ></script>
+    <!-- <script
+      src="F:\LearnMyself\Web\bootstrap-5.0.0-beta3-dist\js\bootstrap.esm.js"
+      defer
+    ></script>
+    <script
+      src="F:\LearnMyself\Web\bootstrap-5.0.0-beta3-dist\js\bootstrap.js"
+      defer
+    ></script> -->
+    <!-- <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+      crossorigin="anonymous"
+    ></script> -->
+  </head>
+  <body>
+    <section id="title">
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-dark navbar-title">
+          <a class="navbar-brand" href=""><i class="fas fa-skating"></i>Figure Skating</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#opening-features"><i class="fas fa-home"></i>Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#history-feature"><i class="fas fa-history"></i>Lịch Sử</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#tournament-features"><i class="fas fa-khanda"></i>Giải Đấu</a>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href=""
+                  id=""
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Vận Động Viên
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Yuzuru Hanyu</a></li>
+                  <li><a class="dropdown-item" href="#">Nathan Chen</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <div class="row">
+          <div class="col-lg-6">
+            <h1 class="big-heading">Trượt Băng Nghệ Thuật Kết Nối Đam Mê!</h1>
+            <button class="btn btn-lg btn-outline-light btn-heading">
+              <i class="fas fa-grin-hearts"></i>Yêu Thích
+            </button>
+            <button class="btn btn-lg btn-dark btn-heading">
+              <i class="fas fa-donate"></i> Ủng Hộ
+            </button>
+            <button class="btn btn-lg btn-dark btn-heading">
+              <i class="fas fa-shopping-cart"></i> Mua Hàng
+            </button>
+          </div>
+
+          <div class="col-lg-6">
+            <img
+              class="title-image"
+              src="Image\yuzuru1.png"
+              alt="yuzuru hanyu"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="opening-features">
+      <div class="row">
+        <div class="col-lg-4 open-feature">
+          <i class="fas fa-heart fa-4x"></i>
+          <h3>Chia Sẻ Cảm Xúc</h3>
+          <p>Nơi bạn thể hiện niềm yêu thích với trượt băng nghệ thuật</p>
+        </div>
+        <div class="col-lg-4 open-feature">
+          <i class="fas fa-pen-square fa-4x"></i>
+          <h3>Cập Nhật Thông Tin</h3>
+          <p>Nơi tổng hợp và cập nhật thông tin các giải đấu và tuyển thủ</p>
+        </div>
+
+        <div class="col-lg-4 open-feature">
+          <i class="fas fa-money-bill-wave fa-4x"></i>
+          <h3>Mua Hàng Nhanh Chóng</h3>
+          <p>Nơi tổng hợp các món đồ của các tuyển thủ</p>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="history-feature">
+      <div
+        id="carouselExampleControls"
+        class="carousel slide"
+        data-bs-ride="false"
+      >
+        <h2>Tiểu Sử Trượt Băng Nghệ Thuật</h2>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row">
+             <div class="col-lg-4">
+              <p>
+                <i class="fas fa-skating fa-2x"></i>Trượt băng nghệ thuật (tiếng
+                Anh: Figure skating) là môn thể thao trong đó các cá nhân, đôi
+                hoặc nhóm biểu diễn bằng giày trượt băng trên sân băng. Đây là môn
+                thể thao mùa đông đầu tiên trong danh sách các môn thi đấu tại Thế
+                vận hội Mùa đông năm 1908
+              </p>
+            </div>
+            <div class="col-lg-8">
+              <img class="img-history"
+              src="Image\6(1).png"
+              alt=""
+            />
+            </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+
+            <div class="row">
+              <div class="col-lg-8">
+                <img
+                src="Image\Yuzuru1-removebg.png"
+                alt=""class ="img-history"
+              />
+              </div>
+
+              <div class="col-lg-4">
+               <p>
+                  <i class="fas fa-skating fa-2x"></i>
+                Từ cấp độ thiếu niên lên dần tới các cuộc thi người lớn, vận động
+                viên thường trình diễn hai bài thi (ngắn và dài/tự do), phụ thuộc
+                vào quy định, có thể bao gồm các cú nhảy, cú xoay tại chỗ, các
+                bước di chuyển, cú nâng người, cú nhảy quăng người (throw jumps),
+                cú xoay vòng xoắn (death spiral) cùng những bước di chuyển hoặc
+                các yếu tố khác
+               </p>
+              </div>
+            </div>
+            
+          </div>
+          <div class="carousel-item">
+
+            <div class="row">
+              <div class="col-lg-4">
+                <p>
+                  <i class="fas fa-skating fa-2x"></i>
+                  Từ cấp độ thiếu niên lên dần tới các cuộc thi người lớn, vận động
+                  viên thường trình diễn hai bài thi (ngắn và dài/tự do), phụ thuộc
+                  vào quy định, có thể bao gồm các cú nhảy, cú xoay tại chỗ, các
+                  bước di chuyển, cú nâng người, cú nhảy quăng người (throw jumps),
+                  cú xoay vòng xoắn (death spiral) cùng những bước di chuyển hoặc
+                  các yếu tố khác.
+                </p>
+              </div>
+              <div class="col-lg-8">
+                <img
+                src="Image\5.png"
+                alt=""
+                class ="img-history"
+              />
+              </div>
+            </div>
+            
+          
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <section id="tournament-features">
+      <div class="row">
+        <h2>
+          Các Giải Đấu Quan Trọng <i class="fas fa-fist-raised fa-2x"></i>
+        </h2>
+        <div class="col-lg-3">
+          <div class="card card-tournament">
+            <img
+              src="Image\olympic.jpg"
+              alt=""
+            />
+            <div class="card-header"><h3>Olympic</h3></div>
+
+            <div class="card-body">
+              <p class="card-text">Danh giá nhất</p>
+              <p class="card-text">4 năm 1 lần kể từ Olympic 1924</p>
+              <p class="card-text">Là thước đo sự "vĩ đại" của một tuyển thủ</p>
+
+              <a href="https://en.wikipedia.org/wiki/Figure_skating_at_the_Olympic_Games" class="btn btn-primary btn-tournament">More Information</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="card card-tournament">
+            <img
+              src="Image\worlds.jpg"
+              alt=""
+            />
+            <div class="card-header"><h3>World Championship</h3></div>
+
+            <div class="card-body">
+              <p class="card-text">
+                Được đánh giá quan trọng thứ 2 sau Olympic
+              </p>
+              <p class="card-text">Diễn ra hàng năm từ 1896</p>
+              <p class="card-text">
+                Kết quả được dùng để đánh giá hạt giống Olympic
+              </p>
+
+              <a href="https://en.wikipedia.org/wiki/World_Figure_Skating_Championships" class="btn btn-primary btn-tournament">More Information</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="card card-tournament">
+            <img
+              src="Image\grandPrixFinal.jpg"
+              alt=""
+            />
+            <div class="card-header"><h3>Grand-Fix Final</h3></div>
+
+            <div class="card-body">
+              <p class="card-text">Được đánh giá quan trọng sau Worlds</p>
+              <p class="card-text">Diễn ra hàng năm từ mùa giải 1998-1999</p>
+              <p class="card-text">
+                Là giải đấu quy tụ những tuyển thủ chiến thắng tại các chuỗi
+                giải Grand Prix
+              </p>
+              <a href="https://en.wikipedia.org/wiki/ISU_Grand_Prix_of_Figure_Skating" class="btn btn-primary btn-tournament">More Information</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="card card-tournament">
+            <img
+              src="Image\4Continent.jpg"
+              alt=""
+            />
+            <div class="card-header"><h3>Four-Continent Championship</h3></div>
+
+            <div class="card-body">
+              <p class="card-text">Được đánh giá sau Grand Prix Final</p>
+              <p class="card-text">Diễn ra hằng năm kể từ 1999</p>
+              <p class="card-text">
+                Chỉ dành cho các vận động viên ngoài Châu Âu
+              </p>
+              <a href="https://en.wikipedia.org/wiki/Four_Continents_Figure_Skating_Championships" class="btn btn-primary btn-tournament">More Information</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skaters">
+      <div
+        id="carouselExampleControls1"
+        class="carousel slide"
+        data-bs-ride="false"
+      >
+        <h2>Các Tuyển Thủ Nổi Tiếng</h2>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row">
+              <div class="col-lg-5">
+                  <div class="card skater-card">
+                    <div class="card-header">
+                      <h3>Yuzuru Hanyu</h3>
+                    </div>
+                    <div class="card-body">
+                      <h2>Người Nhật</h2>
+                      <p class="card-text">2 Lần Vô Địch Olympic 2014,2018</p>
+                      <p class="card-text">2 Lần Vô Địch Thế Giới 2014,2017</p>
+                      <p class="card-text">4 Lần Vô Địch Grand Frix Final 2013,2014,2015,2016 </p>
+                      <p class="card-text">1 Lần Vô Địch Four-Continent 2020</p>
+                      <p class="card-text">5 Lần Vô Địch National Japan 2016-2021</p>
+                      <p class="card-text">GOAT ~ The Greatest Of All Time!</p>
+                      <button class="btn btn-block btn-lg btn-outline-dark" type="button"><i class="fas fa-donate"></i>Ủng Hộ</button>
+                    </div>
+                  </div>
+              </div>
+              <div class="col-lg-7">
+                <img
+                  class="skater-image"
+                  src="Image\7(1).png"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-lg-8">
+                <img
+                  class="skater-image"
+                  src="Image\10(1).png"
+                  alt=""
+                />
+              </div>
+              <div class="col-lg-4">
+                <div class="card skater-card">
+                  <div class="card-header">
+                    <h3>Nathan Chen</h3>
+                  </div>
+                  <div class="card-body">
+                    <h2>Người Mỹ Gốc Hoa</h2>
+                    <p class="card-text">3 Lần Vô Địch Thế Giới 2018,2019,2021</p>
+                    <p class="card-text">3 Lần Vô Địch Grand Frix Final 2017,2018,2019 </p>
+                    <p class="card-text">1 Lần Vô Địch Four-Continent 2017</p>
+                    <p class="card-text">5 Lần Vô Địch National American 2015-2021 </p>
+                    <p class="card-text">Quad King ~ Ông Hoàng Nhảy Quad</p>
+                    <button class="btn btn-block btn-lg btn-outline-dark" type="button"><i class="fas fa-donate"></i>Ủng Hộ</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-lg-5">
+                
+                  <div class="card skater-card">
+                    <div class="card-header">
+                      <h3>Alexandra Trusova</h3>
+                    </div>
+                    <div class="card-body">
+                      <h2>Người Nga</h2>
+                      <p class="card-text">Về Ba Tại Giải Vô Địch Thế Giới 2021</p>
+                      <p class="card-text">Về Ba tại Giải Grand Prix Final 2019 </p>
+                      <p class="card-text">Về Ba tại Giải Vô Địch Châu Âu</p>
+                      <p class="card-text">Ba Lần Huy Chương Vô Địch Nga 2019-2021</p>
+                      <p class="card-text">Quad Queen ~ Nữ Hoàng Nhảy Quad</p>
+                      <button class="btn btn-block btn-lg btn-outline-dark" type="button"><i class="fas fa-donate"></i>Ủng Hộ</button>
+                    </div>
+                  </div>
+                
+              </div>
+              <div class="col-lg-7">
+                <img
+                  class="skater-image"
+                  src="Image\9.png"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleControls1"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleControls1"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <section id="pricing">
+      <h2>Đăng Kí Thành Viên<h2>
+      <p class="pricing-heading">Hãy Trở Thành Một Phần Của Chúng Tôi</p>
+      <div class="row">
+        <div class="col-lg-4 col-md-6">
+          <div class="card pricing-card">
+            <div class="card-header">
+              <h3>SILVER</h3>
+            </div>
+            <div class="card-body">
+              <h2>Free</h2>
+              <p> 1 lần/ngày</p>
+              <p>Không Khuyến Mãi</p>
+              <p>Không Sự Kiện</p>
+              <button class="btn btn-block btn-lg btn-outline-dark" type="button">Sign Up</button>
+            </div>
+          </div>
+        </div>
+        
+        <div class=" col-lg-4 col-md-6">
+          <div class="card pricing-card">
+            <div class="card-header">
+              <h3>GOLD</h3>
+            </div>
+            <div class="card-body">
+              <h2>499.000 đồng / 1 năm</h2>
+              <p>Không Giới Hạn</p>
+              <p>10% Giảm Giá</p>
+              <p>Tham Gia Sự Kiện</p>
+              <button class="btn btn-block btn-lg btn-dark" type="button">Sign Up</button>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-lg-4 col-md-12">
+          <div class="card  pricing-card">
+            <div class="card-header">
+              <h3>DIAMOND</h3>
+            </div>
+            <div class="card-body">
+              <h2>999.000 đồng / 1 năm</h2>
+              <p>Không Giới Hạn</p>
+              <p>20% Giảm Giá</p>
+              <p>Tham Gia Sự Kiện</p>
+              <button class="btn btn-block btn-lg btn-dark" type="button">Sign Up</button>
+            </div>
+          </div>
+        </div>
+       
+      </div>
+     
+    </section>
+
+    <section id="cta">
+      <h3>Hãy Thể Hiện Tình Yêu Của Bạn</h3>
+      <button class ="btn btn-lg btn-dark"type="button "><i class="fab fa-apple"></i>Download</button>
+      <button class ="btn btn-lg btn-outline-dark"type="button"> <i class="fab fa-google-play"></i>Download</button>
+    </section>
+
+    <footer id="footer">
+      <i class="fab fa-facebook-f"></i>
+      <i class="fab fa-twitter"></i>
+      <i class="fab fa-instagram-square"></i>
+      <i class="fas fa-envelope-square"></i>
+      <p>@FigureSkating 2021</p>
+    </footer>
+  </body>
+</html>
